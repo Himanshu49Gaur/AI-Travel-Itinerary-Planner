@@ -35,8 +35,11 @@ o	The project includes structured logic to validate user inputs and interact wit
  API Overview
 API Used: Hugging Face Inference API
 The project uses the Hugging Face Inference API to generate travel itineraries. This API enables interaction with language models, providing detailed and coherent itinerary suggestions tailored to the user's input.
+
 •	Base URL: https://api-inference.huggingface.co/v1/
+
 •	Model: meta-llama/Llama-3.2-1B-Instruct
+
 •	Key Features:
 o	Natural Language Processing: The model processes user queries to generate detailed itineraries.
 o	Customization: Responds to user-specific preferences, destination, and budget.
