@@ -47,8 +47,11 @@ Integration with Streamlit:
 •	The user input is converted into a structured message format and sent to the API.
 •	The API responds with a text-based itinerary, which is displayed to the user in real time.
 
+
 Example API call:
+
 completion = client.chat.completions.create(
+
     model="meta-llama/Llama-3.2-1B-Instruct",
     messages=messages,
     max_tokens=500
