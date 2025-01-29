@@ -1,10 +1,11 @@
 import streamlit as st
 from openai import OpenAI  # Ensure this is correctly installed or replace with the library you are using
+import os
 
 # Initialize the OpenAI Client
 client = OpenAI(
     base_url="https://api-inference.huggingface.co/v1/",
-    api_key="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"
+    api_key=os.getenv("OPENAI_API_KEY") 
 )
 
 # CSS to style the form, page layout, and the review section
